@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Angelo Coviello - Terapeuta Quântico",
+    "description": "Transforme sua vida com terapia quântica avançada",
+    "favicon": "/favicon.ico",
+    "theme": "health"
+  },
+  "content": {
+    "header": {
+      "logo": {
+        "text": "Angelo Coviello",
+        "subtitle": "Terapeuta Quântico"
+      },
+      "cta": {
+        "text": "Agendar Consulta",
+        "href": "https://wa.me/5521979658483"
+      }
+    },
+    "hero": {
+      "headline": "Desperte Seu Potencial Quântico",
+      "subheadline": "Terapia avançada que transforma energia em resultados reais para sua vida",
+      "cta": {
+        "primary": {
+          "text": "Comece Sua Transformação",
+          "href": "#contact"
+        },
+        "secondary": {
+          "text": "Saiba Como Funciona",
+          "href": "#how"
+        }
+      },
+      "image": {
+        "src": "https://quantecportal.com/wp-content/uploads/2025/03/foto-angelo.webp",
+        "alt": "Angelo Coviello - Terapeuta Quântico"
+      }
+    }
+  }
+}
