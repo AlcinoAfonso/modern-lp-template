@@ -4,6 +4,7 @@ export { Button } from './Button';
 export { Card } from './Card';
 export { Container } from './Container';
 export { Divider } from './Divider';
+export { DynamicIcon } from './DynamicIcon';
 export { GlassCard } from './GlassCard';
 export { Grid } from './Grid';
 export { Heading } from './Heading';
