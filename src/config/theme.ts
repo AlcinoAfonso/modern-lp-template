@@ -1,6 +1,5 @@
 export const theme = {
   colors: {
-    // Sistema de cores com variáveis CSS para fácil customização
     primary: {
       50: 'rgb(var(--primary-50) / <alpha-value>)',
       100: 'rgb(var(--primary-100) / <alpha-value>)',
@@ -25,7 +24,6 @@ export const theme = {
   }
 };
 
-// Temas pré-definidos
 export const themes = {
   health: {
     name: 'Saúde & Bem-estar',
@@ -35,7 +33,7 @@ export const themes = {
       200: '191 219 254',
       300: '147 197 253',
       400: '96 165 250',
-      500: '59 130 246', // Principal
+      500: '59 130 246',
       600: '37 99 235',
       700: '29 78 216',
       800: '30 64 175',
@@ -54,7 +52,7 @@ export const themes = {
       200: '254 202 202',
       300: '252 165 165',
       400: '248 113 113',
-      500: '239 68 68', // Principal
+      500: '239 68 68',
       600: '220 38 38',
       700: '185 28 28',
       800: '153 27 27',
@@ -64,5 +62,43 @@ export const themes = {
     foreground: '17 24 39',
     muted: '107 114 128',
     accent: '34 197 94',
+  },
+  tech: {
+    name: 'Tecnologia',
+    primary: {
+      50: '250 245 255',
+      100: '243 232 255',
+      200: '233 213 255',
+      300: '216 180 254',
+      400: '192 132 252',
+      500: '168 85 247',
+      600: '147 51 234',
+      700: '126 34 206',
+      800: '107 33 168',
+      900: '88 28 135',
+    },
+    background: '250 250 250',
+    foreground: '24 24 27',
+    muted: '113 113 122',
+    accent: '236 72 153',
+  },
+  nature: {
+    name: 'Sustentabilidade',
+    primary: {
+      50: '240 253 244',
+      100: '220 252 231',
+      200: '187 247 208',
+      300: '134 239 172',
+      400: '74 222 128',
+      500: '34 197 94',
+      600: '22 163 74',
+      700: '21 128 61',
+      800: '22 101 52',
+      900: '20 83 45',
+    },
+    background: '247 254 253',
+    foreground: '20 20 20',
+    muted: '75 85 99',
+    accent: '251 191 36',
   }
 };
