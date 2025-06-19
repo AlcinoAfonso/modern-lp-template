@@ -1,22 +1,35 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import { loadLPData } from '@/lib/lp-loader';
+import { LPProvider } from '@/contexts/LPContext';
+import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Modern LP Template',
-  description: 'Landing Page moderna com Next.js 14',
+export async function generateMetadata(): Promise<Metadata> {
+  const lpData = await loadLPData();
+
+  return {
+    title: lpData.metadata.title,
+    description: lpData.metadata.description,
+    icons: {
+      icon: lpData.metadata.favicon || '/favicon.ico',
+    },
+  };
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
+  const lpData = await loadLPData();
+
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <LPProvider data={lpData}>{children}</LPProvider>
+      </body>
     </html>
-  )
+  );
 }
