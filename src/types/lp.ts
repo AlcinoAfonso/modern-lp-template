@@ -36,6 +36,7 @@ export interface HeaderContent {
 export interface HeroContent {
   headline: string;
   subheadline: string;
+  badges?: string[];
   cta: {
     primary: CTAButton;
     secondary?: CTAButton;
@@ -111,16 +112,25 @@ export interface CTAFinalContent {
   subtitle?: string;
   cta: CTAButton;
   benefits?: string[];
+  urgency?: string;
 }
 
 export interface FooterContent {
-  copyright: string;
-  links?: {
-    label: string;
-    href: string;
+  logo?: {
+    text: string;
+    subtitle?: string;
+  };
+  sections?: {
+    title: string;
+    links: { label: string; href: string }[];
   }[];
+  copyright: string;
   social?: {
     platform: 'facebook' | 'instagram' | 'linkedin' | 'twitter' | 'youtube';
+    href: string;
+  }[];
+  legal?: {
+    label: string;
     href: string;
   }[];
 }

@@ -1,9 +1,10 @@
 import { cn } from '@/lib/utils';
 import { Card } from './Card';
+import { DynamicIcon } from './DynamicIcon';
 import { LucideIcon } from 'lucide-react';
 
 interface IconCardProps {
-  icon: LucideIcon;
+  icon?: string | LucideIcon;
   title: string;
   description: string;
   className?: string;
@@ -11,7 +12,7 @@ interface IconCardProps {
 }
 
 export function IconCard({ 
-  icon: Icon, 
+  icon, 
   title, 
   description, 
   className,
@@ -25,7 +26,11 @@ export function IconCard({
         'group-hover:scale-110 transition-transform duration-300',
         iconClassName
       )}>
-        <Icon size={24} />
+        {typeof icon === 'string' ? (
+          <DynamicIcon name={icon} size={24} />
+        ) : icon ? (
+          <icon size={24} />
+        ) : null}
       </div>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="text-muted">{description}</p>
