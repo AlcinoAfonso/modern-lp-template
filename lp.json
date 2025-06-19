@@ -1,38 +1,301 @@
 {
   "metadata": {
-    "title": "Angelo Coviello - Terapeuta Quântico",
-    "description": "Transforme sua vida com terapia quântica avançada",
+    "title": "Clínica Saúde+ | Cuidado Humanizado com Tecnologia Avançada",
+    "description": "Clínica médica moderna com atendimento personalizado, tecnologia de ponta e equipe especializada. Agende sua consulta online.",
     "favicon": "/favicon.ico",
     "theme": "health"
   },
   "content": {
     "header": {
       "logo": {
-        "text": "Angelo Coviello",
-        "subtitle": "Terapeuta Quântico"
+        "text": "Clínica Saúde+",
+        "subtitle": "Medicina Moderna"
       },
+      "navigation": [
+        {
+          "label": "Sobre",
+          "href": "#about"
+        },
+        {
+          "label": "Especialidades",
+          "href": "#benefits"
+        },
+        {
+          "label": "Como Funciona",
+          "href": "#how"
+        },
+        {
+          "label": "Depoimentos",
+          "href": "#testimonials"
+        }
+      ],
       "cta": {
         "text": "Agendar Consulta",
-        "href": "https://wa.me/5521979658483"
+        "href": "#contact"
       }
     },
     "hero": {
-      "headline": "Desperte Seu Potencial Quântico",
-      "subheadline": "Terapia avançada que transforma energia em resultados reais para sua vida",
+      "headline": "Sua Saúde Merece Cuidado de Excelência",
+      "subheadline": "Atendimento humanizado com tecnologia avançada. Médicos especializados prontos para cuidar de você e sua família.",
       "cta": {
         "primary": {
-          "text": "Comece Sua Transformação",
+          "text": "Agende Sua Consulta Agora",
           "href": "#contact"
         },
         "secondary": {
-          "text": "Saiba Como Funciona",
-          "href": "#how"
+          "text": "Conheça Nossa Clínica",
+          "href": "#about"
         }
       },
       "image": {
-        "src": "https://quantecportal.com/wp-content/uploads/2025/03/foto-angelo.webp",
-        "alt": "Angelo Coviello - Terapeuta Quântico"
+        "src": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&h=600&fit=crop",
+        "alt": "Equipe médica moderna e acolhedora"
+      },
+      "badges": ["Atendimento 24h", "Resultados Online", "Telemedicina"]
+    },
+    "benefits": {
+      "title": "Por Que Escolher Nossa Clínica",
+      "subtitle": "Combinamos o melhor da medicina tradicional com tecnologia de ponta",
+      "items": [
+        {
+          "icon": "Heart",
+          "title": "Atendimento Humanizado",
+          "description": "Médicos que dedicam tempo para ouvir e entender suas necessidades"
+        },
+        {
+          "icon": "Microscope",
+          "title": "Tecnologia Avançada",
+          "description": "Equipamentos de última geração para diagnósticos precisos e rápidos"
+        },
+        {
+          "icon": "Clock",
+          "title": "Horários Flexíveis",
+          "description": "Atendimento estendido e aos sábados para sua conveniência"
+        },
+        {
+          "icon": "Shield",
+          "title": "Todos os Convênios",
+          "description": "Aceitamos os principais planos de saúde e oferecemos condições especiais"
+        },
+        {
+          "icon": "Users",
+          "title": "Equipe Multidisciplinar",
+          "description": "Especialistas em diversas áreas trabalhando de forma integrada"
+        },
+        {
+          "icon": "Smartphone",
+          "title": "Resultados Online",
+          "description": "Acesse seus exames e histórico médico de qualquer lugar"
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Como Funciona Nosso Atendimento",
+      "subtitle": "Processo simples e transparente do agendamento ao acompanhamento",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Agendamento Online",
+          "description": "Escolha o especialista, data e horário que melhor se adequam à sua rotina",
+          "icon": "Calendar"
+        },
+        {
+          "number": "2",
+          "title": "Consulta Personalizada",
+          "description": "Atendimento completo com tempo adequado para diagnóstico preciso",
+          "icon": "Stethoscope"
+        },
+        {
+          "number": "3",
+          "title": "Exames no Local",
+          "description": "Realize exames complementares sem sair da clínica",
+          "icon": "FileSearch"
+        },
+        {
+          "number": "4",
+          "title": "Acompanhamento Contínuo",
+          "description": "Monitoramento da sua saúde com histórico completo e lembretes",
+          "icon": "HeartHandshake"
+        }
+      ]
+    },
+    "about": {
+      "title": "Cuidando da Sua Saúde há 15 Anos",
+      "subtitle": "Uma história de dedicação, inovação e resultados",
+      "content": [
+        {
+          "paragraph": "Desde 2010, a Clínica Saúde+ tem sido referência em atendimento médico de qualidade. Nossa missão é proporcionar cuidados de saúde excepcionais, combinando expertise médica com as mais recentes inovações tecnológicas."
+        },
+        {
+          "paragraph": "Com uma equipe de mais de 50 profissionais altamente qualificados e instalações modernas, atendemos mais de 30.000 pacientes por ano, mantendo um índice de satisfação superior a 98%."
+        },
+        {
+          "paragraph": "Acreditamos que cada paciente é único e merece um plano de cuidados personalizado. Por isso, investimos em tecnologia, capacitação contínua e em criar um ambiente acolhedor onde você se sinta verdadeiramente cuidado."
+        }
+      ],
+      "stats": [
+        {
+          "value": "50+",
+          "label": "Médicos Especialistas"
+        },
+        {
+          "value": "30.000+",
+          "label": "Pacientes Atendidos/Ano"
+        },
+        {
+          "value": "98%",
+          "label": "Satisfação dos Pacientes"
+        },
+        {
+          "value": "24/7",
+          "label": "Atendimento de Urgência"
+        }
+      ],
+      "image": {
+        "src": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=600&fit=crop",
+        "alt": "Interior moderno da clínica"
       }
+    },
+    "testimonials": {
+      "title": "O Que Nossos Pacientes Dizem",
+      "subtitle": "Histórias reais de pessoas que confiaram sua saúde em nossas mãos",
+      "items": [
+        {
+          "name": "Maria Silva",
+          "role": "Paciente há 5 anos",
+          "content": "Encontrei na Clínica Saúde+ não apenas médicos competentes, mas profissionais que realmente se importam. O atendimento humanizado faz toda diferença no tratamento.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/150?img=1"
+        },
+        {
+          "name": "João Santos",
+          "role": "Empresário",
+          "content": "A praticidade do agendamento online e a pontualidade no atendimento são fundamentais para quem tem uma rotina corrida. Excelente infraestrutura e profissionais.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/150?img=2"
+        },
+        {
+          "name": "Ana Costa",
+          "role": "Mãe de 3 filhos",
+          "content": "Toda minha família é atendida aqui. Desde pediatria até geriatria, sempre encontramos especialistas dedicados e um ambiente acolhedor para as crianças.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/150?img=3"
+        },
+        {
+          "name": "Pedro Oliveira",
+          "role": "Professor",
+          "content": "O sistema de resultados online é fantástico! Posso acompanhar todo meu histórico médico e compartilhar com outros especialistas quando necessário.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/150?img=4"
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Pronto Para Cuidar da Sua Saúde?",
+      "subtitle": "Agende sua consulta em menos de 2 minutos e tenha acesso ao melhor atendimento médico da região",
+      "cta": {
+        "text": "Agendar Consulta Agora",
+        "href": "#contact"
+      },
+      "benefits": [
+        "Confirmação imediata",
+        "Lembretes automáticos",
+        "Cancelamento sem burocracia",
+        "Atendimento em até 48h"
+      ],
+      "urgency": "Vagas limitadas para esta semana!"
+    },
+    "footer": {
+      "logo": {
+        "text": "Clínica Saúde+",
+        "subtitle": "Cuidando de você"
+      },
+      "sections": [
+        {
+          "title": "Atendimento",
+          "links": [
+            {
+              "label": "Segunda a Sexta: 7h às 22h",
+              "href": "#"
+            },
+            {
+              "label": "Sábados: 8h às 18h",
+              "href": "#"
+            },
+            {
+              "label": "Urgência 24h",
+              "href": "tel:0800123456"
+            }
+          ]
+        },
+        {
+          "title": "Especialidades",
+          "links": [
+            {
+              "label": "Clínica Geral",
+              "href": "#"
+            },
+            {
+              "label": "Pediatria",
+              "href": "#"
+            },
+            {
+              "label": "Cardiologia",
+              "href": "#"
+            },
+            {
+              "label": "Ver todas",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "title": "Contato",
+          "links": [
+            {
+              "label": "(11) 3000-0000",
+              "href": "tel:1130000000"
+            },
+            {
+              "label": "contato@clinicasaudemais.com.br",
+              "href": "mailto:contato@clinicasaudemais.com.br"
+            },
+            {
+              "label": "Av. Paulista, 1000 - São Paulo",
+              "href": "#"
+            }
+          ]
+        }
+      ],
+      "social": [
+        {
+          "platform": "instagram",
+          "href": "https://instagram.com/clinicasaudemais"
+        },
+        {
+          "platform": "facebook",
+          "href": "https://facebook.com/clinicasaudemais"
+        },
+        {
+          "platform": "linkedin",
+          "href": "https://linkedin.com/company/clinicasaudemais"
+        },
+        {
+          "platform": "youtube",
+          "href": "https://youtube.com/clinicasaudemais"
+        }
+      ],
+      "copyright": "© 2025 Clínica Saúde+. Todos os direitos reservados.",
+      "legal": [
+        {
+          "label": "Política de Privacidade",
+          "href": "/privacy"
+        },
+        {
+          "label": "Termos de Uso",
+          "href": "/terms"
+        }
+      ]
     }
   }
 }
