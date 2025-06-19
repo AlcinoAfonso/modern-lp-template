@@ -50,7 +50,7 @@ export function Testimonials({ content }: TestimonialsProps) {
               >
                 <GlassCard className="p-8 lg:p-12">
                   {/* Quote Icon */}
-                  <Quote size={48} className="mb-6 text-primary-200" />
+                  <Quote size={48} className="text-primary-200 mb-6" />
                   
                   {/* Content */}
                   <blockquote className="text-lg lg:text-xl mb-6">
