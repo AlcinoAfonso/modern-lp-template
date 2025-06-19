@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 import { Section, Container, Heading, Text, Avatar, GlassCard } from '@/components/ui';
 import { TestimonialsContent } from '@/types/lp';
 import { cn } from '@/lib/utils';
@@ -50,7 +50,7 @@ export function Testimonials({ content }: TestimonialsProps) {
               >
                 <GlassCard className="p-8 lg:p-12">
                   {/* Quote Icon */}
-                  <div className="text-6xl text-primary-200 mb-6">"</div>
+                  <Quote size={48} className="mb-6 text-primary-200" />
                   
                   {/* Content */}
                   <blockquote className="text-lg lg:text-xl mb-6">
