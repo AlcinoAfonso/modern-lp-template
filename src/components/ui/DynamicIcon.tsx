@@ -1,16 +1,28 @@
-import * as icons from 'lucide-react';
-import type { LucideIcon, LucideProps } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
+import * as Icons from 'lucide-react';
 
-export interface DynamicIconProps extends LucideProps {
-  name: keyof typeof icons;
+interface DynamicIconProps {
+  name?: string;
+  size?: number;
+  className?: string;
 }
 
-export function DynamicIcon({ name, ...props }: DynamicIconProps) {
-  const Icon = icons[name] as LucideIcon | undefined;
-
+export function DynamicIcon({ name, size = 24, className }: DynamicIconProps) {
+  if (!name) return null;
+  
+  // Converte o nome do ícone para o formato correto
+  // Ex: "heart" -> "Heart", "file-search" -> "FileSearch"
+  const iconName = name
+    .split('-')
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join('');
+  
+  const Icon = (Icons as any)[iconName] as LucideIcon;
+  
   if (!Icon) {
+    console.warn(`Icon "${name}" not found`);
     return null;
   }
-
-  return <Icon {...props} />;
+  
+  return <Icon size={size} className={className} />;
 }
